@@ -21,7 +21,7 @@ console.log(ans);
 //     return number % 2 === 0;
 // }
 
-const isEven = (number) => {
+const isEven = number => {
     return number %2 === 0;
 }
 console.log(isEven(4));
@@ -29,7 +29,7 @@ console.log(isEven(4));
 // console.log(isEven(10));
 
 
-function firstChar(anyString){
+const firstChar=(anyString)=>{
     return anyString[0];
 }
 
