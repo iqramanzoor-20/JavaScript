@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+<script src="./99.js" defer></script>
+    <title>My Website</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="container">
+            <h1 class="logo">Website</h1>
+            <ul class="nav-items">
+                <li class="nav-items"><a href="#">Home</a></li>
+                <li class="nav-items"><a href="#">Todo</a></li>
+                <li class="nav-items"><a href="#">Sign Up</a></li>
+            </ul>
+        </nav>
+
+        <!-- Ye wala center wala section -->
+        <div class="headline">
+    <h2 id="manage">Manage your tasks</h2>
+    <a href="#todo" class="btn btn-headline">Learn More</a> 
+</div>
+    </header>
+<section id="todo" class="todo-section container">
+    <h2>Your plan for today ?</h2>
+    <form class="form-todo">
+        <input type="text" placeholder="Add Todo" name="todo">
+        <input type="submit" value="Add Todo" class="btn">
+    </form>
+</section>
+    <!-- Sign Up Section -->
+<section class="signup-section container">
+    <h2>Sign Up</h2>
+    <form class="signup-form">
+        <div class="form-group">
+            <label>Username</label>
+            <input type="text">
+        </div>
+        <div class="form-group">
+            <label>Password</label>
+            <input type="password">
+        </div>
+        <div class="form-group">
+            <label>Confirm Password</label>
+            <input type="password">
+        </div>
+        <div class="form-group">
+            <label>Phone</label>
+            <input type="text">
+        </div>
+        <div class="form-group">
+            <label>Email</label>
+            <input type="email">
+        </div>
+        <div class="form-group">
+            <label>About Yourself</label>
+            <textarea></textarea>
+        </div>
+        <button type="submit" class="btn-submit">Submit</button>
+    </form>
+</section>
+</body>
+</html>
