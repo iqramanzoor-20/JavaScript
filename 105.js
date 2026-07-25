@@ -3,5 +3,7 @@
 const navItems = document.getElementsByClassName("nav-item"); // HTMLCollection
 console.log(navItems);
 console.log(Array.isArray(navItems));
-const navItems = document.querySelectorAll(".nav-item"); // NodeList
-console.log(navItems[1]);
+// const navItems = document.querySelectorAll(".nav-item"); // NodeList
+// console.log(navItems[1]);
+const navItems2 = document.querySelectorAll(".nav-item");
+console.log(navItems2[1]);

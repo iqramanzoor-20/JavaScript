@@ -1,6 +1,5 @@
-// how to get the dimension of element
-// height width
-
 const sectionTodo = document.querySelector(".section-todo");
 const info = sectionTodo.getBoundingClientRect();
-console.log(info);
+console.log("115.js output:", info); // label laga do
+console.log("Width:", info.width);
+console.log("Height:", info.height);
