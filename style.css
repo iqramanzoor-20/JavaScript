@@ -187,3 +187,9 @@ nav {
   font-size: 15px;
   cursor: pointer;
 }
+ul {
+    list-style: none; /* dots hat jayenge */
+    padding: 0;       /* left ka space bhi khatam */
+    margin: 0;
+    text-align: center; /* text center me aa jayega */
+}
